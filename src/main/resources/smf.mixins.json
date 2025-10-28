@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.redstone233.sfm.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SuperFurnaceBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
